@@ -95,7 +95,7 @@ void loop() {
     clearDisplay();
   } else if (klavesa == '#') {
     checkPassword();
-  } else if (klavesa) {  //Vyhodnoceni zmacknuteho tlacitka
+  } else if (klavesa) {  //Vyhodnoceni zmacknuteho tlacitka A = (klavesa >= '0' && klavesa <= '9')
 
     userCode += klavesa;
     lcd.clear();
